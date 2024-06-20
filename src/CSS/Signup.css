@@ -1,0 +1,107 @@
+.form {
+    background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+    position: relative; 
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    color: white; /* Set text color for the form */
+}
+
+.tab-group {
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tab {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.tab a {
+    color: #FF416C;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.li_signup {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+}
+
+.a_signup {
+    color: black ;
+}
+
+.h1_signup {
+    margin-bottom: 20px;
+}
+
+.form1 {
+    margin-top: 20px;
+}
+
+.label_Signup {
+    font-weight: bold;
+}
+
+.input_signup {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.user-type-list {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.user-type-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.user-type-list li:hover {
+    background-color: #ddd;
+}
+
+.user-type-list li.active {
+    /* background-color: #4CAF50; */
+    color: #4CAF50;
+}
+
+.button_signup {
+    border:0;
+    outline:none;
+    border-radius:0;
+    padding:10px 0;
+    font-size:1rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    background:white;
+    color:white;
+    transition:all.5s ease;
+    
+  }
+  
+  .button_signup-block {
+    display:block;
+    width:100%;
+  }
+  
